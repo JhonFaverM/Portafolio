@@ -9,31 +9,31 @@ import Uptc from '../../assets/upt.png'
 const About = () => {
   return (
     <section id='about'>
-      <h2>About Me</h2>
-
+      <h2>About Me & <br />Courses Taken</h2>
+      
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={Rema} alt='About Image' />
+            <img src={Rema} alt='Esposos' />
           </div>
         </div>
         <div className='about__content'>
           <div className='about__cards'>
             <article className='about__card'>
-              <img src={Bictia} alt='About Image' />
+              <img src={Bictia} alt='Bictia' />
               {/*<FaAward className='about__icon'/>*/}
               <h5>Studies</h5>
               <a href='https://bictia.com/' target='_blank' className='btn btn-primar'>Bictia</a>
             </article>
             <article className='about__card'>
-              <img src={Alura} alt='About Image' />
+              <img src={Alura} alt='Alura' />
               <h5>Studies</h5>
               <a href='https://www.aluracursos.com/' target='_blank' className='btn btn-primar'>Alura</a>
             </article>
             <article className='about__card'>
-              <img className='uptc' src={Uptc} alt='About Image' />
+              <img className='uptc' src={Uptc} alt='Uptc' />
               <h5>Studies</h5>
-              <a href='#contact' className='btn btn-primar'>Uptc</a>
+              <a href='http://www.uptc.edu.co/facultades/fesad/regencia_farmacia/inf_general/' target='_blank' className='btn btn-primar'>Uptc</a>
             </article>
           </div>
           <p>
