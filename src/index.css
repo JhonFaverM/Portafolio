@@ -11,7 +11,7 @@
 }
 
 :root {
-    --color-bg: #252525; /*1f1f38*/
+    --color-bg: #252525;
     --color-bg-variant: #2c2c6c;
     --color-primary: #6A6A6A;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
@@ -38,7 +38,6 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    /*background-image: url(../src/assets/matusca-pastor.jpeg);*/
 }
 
         /*=====STYLE GENERAL======*/
@@ -77,18 +76,6 @@ a {
 a:hover {
     color: var(--color-white);
 }
-
-/* 
-.btn {
-    width: max-content;
-    display: inline-block;
-    color: white;
-    padding: 0.75rem 1.2rem;
-    border-radius: 0.4rem;
-    cursor: pointer;
-    border: 1px solid #f1254e;
-    transition: var(--transition);
-}*/
 
 .btn:hover {
     background: var(--color-white);

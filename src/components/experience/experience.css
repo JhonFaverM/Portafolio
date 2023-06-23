@@ -12,8 +12,6 @@
     transition: var(--transition);
 }
 
-
-
 .experience__container > div h3 {
     text-align: center;
     margin-bottom: 2rem;
@@ -40,17 +38,13 @@
 .ball1, .ball2, .ball3, .ball4, .ball5, .ball6, .ball7 {
     position: absolute;
     font-size: 2.5rem;
-
-
     background: var(--color-bg);
     color: var(--color-white);
     padding: 0.8rem;
     border-radius: 50%;
     display: flex;
     border: 1px solid transparent;
-
 }
-
 
 .container1 {
     position: relative;
@@ -85,21 +79,3 @@
     }
 }
 
-/* 
-
-function checkCollision(ball1, ball2) {
-  const dx = ball1.x - ball2.x;
-  const dy = ball1.y - ball2.y;
-  const distance = Math.sqrt(dx * dx + dy * dy);
-  return distance <= ball1.element.offsetWidth;
-}
-
-function swapDirections(ball1, ball2) {
-  const tempDirX = ball1.directionX;
-  const tempDirY = ball1.directionY;
-  ball1.directionX = ball2.directionX;
-  ball1.directionY = ball2.directionY;
-  ball2.directionX = tempDirX;
-  ball2.directionY = tempDirY;
-}
-*/

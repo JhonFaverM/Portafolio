@@ -10,6 +10,7 @@ import {SiJavascript} from 'react-icons/si'
 import {SiCsswizardry} from 'react-icons/si'
 
 
+
 function checkCollision(ball1, ball2) {
   const dx = ball1.x - ball2.x;
   const dy = ball1.y - ball2.y;
@@ -254,9 +255,6 @@ const Experience = () => {
             </div>
           </div>
         </div>
-
-        
-
       </div>
     </section>
   )

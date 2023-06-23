@@ -4,6 +4,7 @@ import MEGA from '../../assets/flix.png'
 import MEGABANT from '../../assets/megab.png'
 import ENCRIPTADOR from '../../assets/encripta.png'
 import BARBER from '../../assets/barber_shop.png'
+import IGLESIA from '../../assets/iglesia-1.png'
 
 
 const data = [
@@ -33,6 +34,13 @@ const data = [
     image: BARBER,
     title: 'Barber Shoop',
     github: 'https://github.com/JhonFaverM/Barberia',
+    demo: 'https://barberia-ten.vercel.app/'
+  },
+  {
+    id: 5,
+    image: IGLESIA,
+    title: 'Pagina Iglesia',
+    github: 'https://github.com/JhonFaverM/Iglesia_Bautista_Reformada_Tunja.git',
     demo: 'https://barberia-ten.vercel.app/'
   },
 ]

@@ -4,6 +4,10 @@ import Bictia from '../../assets/bictia.jpg'
 import Rema from '../../assets/esposos.jpeg'
 import Alura from '../../assets/alura1.png'
 import Uptc from '../../assets/upt.png'
+//import CertiBictia from '../../assets/colsu-frontend.pdf'
+//import CerticadosBictia from '../../assets/certi-bictia/bictia-certif.pdf'
+import CertificacionesBictia from '../../assets/certificaciones-bictia.pdf'
+import CertificacionesAlura from '../../assets/Certificaciones-Alura.pdf'
 
 
 const About = () => {
@@ -23,17 +27,17 @@ const About = () => {
               <img src={Bictia} alt='Bictia' />
               {/*<FaAward className='about__icon'/>*/}
               <h5>Studies</h5>
-              <a href='https://bictia.com/' target='_blank' className='btn btn-primar'>Bictia</a>
+              <a href={CertificacionesBictia} download className='btn btn-primar' data-tip='descargar certificados'>Bictia</a>
             </article>
             <article className='about__card'>
               <img src={Alura} alt='Alura' />
               <h5>Studies</h5>
-              <a href='https://www.aluracursos.com/' target='_blank' className='btn btn-primar'>Alura</a>
+              <a href={CertificacionesAlura} download className='btn btn-primar'>Alura</a>
             </article>
             <article className='about__card'>
               <img className='uptc' src={Uptc} alt='Uptc' />
               <h5>Studies</h5>
-              <a href='http://www.uptc.edu.co/facultades/fesad/regencia_farmacia/inf_general/' target='_blank' className='btn btn-primar'>Uptc</a>
+              <a href='http://www.uptc.edu.co/facultades/fesad/regencia_farmacia/inf_general/' rel="noreferrer" target='_blank' className='btn btn-primar'>Uptc</a>
             </article>
           </div>
           <p>
