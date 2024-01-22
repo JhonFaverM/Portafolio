@@ -4,45 +4,45 @@ import MEGA from '../../assets/flix.png'
 import MEGABANT from '../../assets/megab.png'
 import ENCRIPTADOR from '../../assets/encripta.png'
 import BARBER from '../../assets/barber_shop.png'
-import IGLESIA from '../../assets/iglesia-1.png'
+import IGLESIA from '../../assets/vista-iglesia.png'
 
 
 const data = [
   {
     id: 1,
     image: MEGA,
-    title: 'Megaflix',
+    title: 'Megaflix App sobre React',
     github: 'https://github.com/JhonFaverM/MEGAFLIX',
     demo: 'https://megaflix-xi.vercel.app/'
   },
   {
     id: 2,
+    image: IGLESIA,
+    title: 'Pagina Iglesia App sobre Angular | Express',
+    github: 'https://github.com/JhonFaverM/Iglesia_Bautista_Reformada_Tunja.git',
+    demo: 'https://front-iglesia-3aa8ff13a59e.herokuapp.com//'
+  },
+  {
+    id: 3,
     image: MEGABANT,
-    title: 'Megabant',
+    title: 'Megabant App sobre HTML | CSS',
     github: 'https://github.com/JhonFaverM/MEGABANT',
     demo: 'https://megabant.vercel.app/'
   },
   {
-    id: 3,
+    id: 4,
     image: ENCRIPTADOR,
-    title: 'Encriptador',
+    title: 'Encriptador App sobre HTML | CSS',
     github: 'https://github.com/JhonFaverM/Encriptar-texto',
     demo: 'https://encriptar-texto.vercel.app/'
   },
   {
-    id: 4,
+    id: 5,
     image: BARBER,
-    title: 'Barber Shoop',
+    title: 'Barber Shoop App sobre HTML | CSS',
     github: 'https://github.com/JhonFaverM/Barberia',
     demo: 'https://barberia-ten.vercel.app/'
-  },
-  {
-    id: 5,
-    image: IGLESIA,
-    title: 'Pagina Iglesia',
-    github: 'https://github.com/JhonFaverM/Iglesia_Bautista_Reformada_Tunja.git',
-    demo: 'https://front-iglesia-3aa8ff13a59e.herokuapp.com//'
-  },
+  }
 ]
 
 const Portafolio = () => {
