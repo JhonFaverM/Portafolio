@@ -41,7 +41,7 @@ const data = [
     image: IGLESIA,
     title: 'Pagina Iglesia',
     github: 'https://github.com/JhonFaverM/Iglesia_Bautista_Reformada_Tunja.git',
-    demo: 'https://barberia-ten.vercel.app/'
+    demo: 'https://front-iglesia-3aa8ff13a59e.herokuapp.com//'
   },
 ]
 
