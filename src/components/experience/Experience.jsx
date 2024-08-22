@@ -6,8 +6,7 @@ import {TbBrandMongodb} from 'react-icons/tb'
 import {GrReactjs} from 'react-icons/gr'
 import {FaNodeJs} from 'react-icons/fa'
 import {ImHtmlFive} from 'react-icons/im'
-import {SiJavascript} from 'react-icons/si'
-import {SiCsswizardry} from 'react-icons/si'
+import {SiJavascript, SiCsswizardry, SiPython} from 'react-icons/si'
 
 
 
@@ -179,7 +178,7 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>CSS</h4>
+                <h4>PYTHON</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
@@ -250,7 +249,7 @@ const Experience = () => {
                 <SiJavascript />
               </div>
               <div className="ball7" ref={el => (ballsRef.current[6] = el)}>
-                <SiCsswizardry />
+                <SiPython />
               </div>
             </div>
           </div>
