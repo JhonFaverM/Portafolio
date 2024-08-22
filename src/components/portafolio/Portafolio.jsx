@@ -4,7 +4,7 @@ import MEGA from '../../assets/flix.png'
 import MEGABANT from '../../assets/megab.png'
 import ENCRIPTADOR from '../../assets/encripta.png'
 import BARBER from '../../assets/barber_shop.png'
-import IGLESIA from '../../assets/vista-iglesia.png'
+import IGLESIA from '../../assets/iglesia.png'
 
 
 const data = [
@@ -18,9 +18,9 @@ const data = [
   {
     id: 2,
     image: IGLESIA,
-    title: 'Pagina Iglesia App sobre Angular | Express',
+    title: 'Iglesia Bautista Reformada Tunja Angular | Node',
     github: 'https://github.com/JhonFaverM/Iglesia_Bautista_Reformada_Tunja.git',
-    demo: 'https://front-iglesia-3aa8ff13a59e.herokuapp.com//'
+    demo: 'https://iglesia-bautista-reformada-tunja-3.onrender.com'
   },
   {
     id: 3,

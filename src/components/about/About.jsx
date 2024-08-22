@@ -4,10 +4,12 @@ import Bictia from '../../assets/bictia.jpg'
 import Rema from '../../assets/esposos.jpeg'
 import Alura from '../../assets/alura1.png'
 import Uptc from '../../assets/upt.png'
+import Sergio from '../../assets/sergio.png'
 //import CertiBictia from '../../assets/colsu-frontend.pdf'
 //import CerticadosBictia from '../../assets/certi-bictia/bictia-certif.pdf'
 import CertificacionesBictia from '../../assets/certificaciones-bictia.pdf'
 import CertificacionesAlura from '../../assets/Certificaciones-Alura.pdf'
+import CertificadoSergio from '../../assets/talentoTech.pdf'
 
 
 const About = () => {
@@ -23,6 +25,12 @@ const About = () => {
         </div>
         <div className='about__content'>
           <div className='about__cards'>
+          <article className='about__card'>
+              <img src={Sergio} alt='Sergio' />
+              {/*<FaAward className='about__icon'/>*/}
+              <h5>Studies</h5>
+              <a href={CertificadoSergio} download className='btn btn-primar' data-tip='descargar certificados'>Sergio</a>
+            </article>
             <article className='about__card'>
               <img src={Bictia} alt='Bictia' />
               {/*<FaAward className='about__icon'/>*/}
